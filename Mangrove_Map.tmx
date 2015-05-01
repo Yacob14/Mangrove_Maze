@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="128" tileheight="128" nextobjectid="13">
+ <tileset firstgid="1" name="Mangrove Tiles" tilewidth="128" tileheight="128">
+  <image source="Graphics/Mangrove_bg_2X.png" width="640" height="640"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="8">
+   <properties>
+    <property name="collectable" value="egg"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Water Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKEL8P3zLsdAwVVTVfXVA1nVHU0=
+  </data>
+ </layer>
+ <layer name="Land Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzNlsEKxCAMRKML3ese2v//1UVQGGQmRluhD0JLS/MwxlCzPZwQu3ib46ixy7GanzlUrogj10B+E44IzHEad6zmZo5r4DgsXqNCEu/Rs+qI4DlmYLViDiS6BrUfeD9yRD0eTzhGrDhUTRSttxhqDdin2XTfNtp5n3FkuCZb3w+VG/tHnW8EZ1Y0fyGZP0MQb7Z/azCYQ3n6WRLJr/a4PP+Ib3oHy698zNHCczCYQ9WKee46eli9nv4v8Rx/8TgGng==
+  </data>
+ </layer>
+ <layer name="Collection Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIMA50A4YZIDS8BgNz4EBo+E+CigBo+lnFIwC0sFA5hsAO4sANw==
+  </data>
+ </layer>
+ <objectgroup name="Meta Layer">
+  <object id="8" name="Start" x="2684" y="220" width="128" height="116">
+   <properties>
+    <property name="type" value="start"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
